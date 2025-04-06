@@ -2,13 +2,13 @@
 public class SistemaUlisses {
     public static void main(String[] args) {
         // Criando um cliente e um veículo
-        Cliente cliente = new Cliente("João da Silva", "123.456.789-00", "1199999-0000");
-        Veiculo veiculo = new Veiculo("ABC-1234", "Fiat Uno");
+        Cliente cliente = new Cliente("Maria da Silva", "123.456.789-00", "1199999-0000");
+        Veiculo veiculo = new Veiculo("ABC-1234", "VW GOL");
 
         // Criando serviços para o cliente
-        Servico lavagem = new ServicoLavagem(cliente, veiculo, 50.0);
-        Servico corrida = new ServicoCorrida(cliente, veiculo, 30.0, "Centro", "Shopping");
-        Servico polimento = new ServicoPolimento(cliente, veiculo, 100.0);
+        Servico lavagem = new ServicoLavagem(cliente, veiculo, 100.0);
+        Servico corrida = new ServicoCorrida(cliente, veiculo, 100.0, "Centro", "Shopping");
+        Servico polimento = new ServicoPolimento(cliente, veiculo, 20.0);
 
         // Criando o relatório de serviços
         RelatorioServicos relatorio = new RelatorioServicos();

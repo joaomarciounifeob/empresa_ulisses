@@ -1,5 +1,7 @@
 # Sistema de Gerenciamento de Serviços de Veículos - Ulisses
 
+# OBS os modelos conceitual e lógico estão na pasta database
+
 Este projeto contém um sistema para gerenciar serviços de veículos, incluindo registro de clientes, veículos, tipos de serviços e execução de serviços. O banco de dados simula um sistema de gerenciamento de serviços de lavagem, polimento e corridas para veículos, com a capacidade de gerar relatórios de serviços realizados.
 
 ## Estrutura do Banco de Dados
